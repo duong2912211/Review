@@ -1,0 +1,42 @@
+﻿
+.content{
+    position: absolute;
+    top : 61px;
+    left: 221px;
+    width: calc(100% - 221px);
+    height: calc(100vh - 61px);
+    background-color: #ffffff;
+}
+
+/*Page title*/
+.content .header-content{
+    padding:16px;
+    display:flex;
+    align-items:center;
+}
+    .content .header-content .title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .content .header-content .content-feature{
+        position:absolute;
+        right:16px;
+    }
+
+/*Content filter*/
+.content .filter{
+
+}
+
+/*Grid*/
+.content .grid{
+
+}
+
+/*Paging*/
+.content .paging-bar{
+    width:100%;
+    height:56px;
+    display:flex;
+    background-color:#ffffff;
+}

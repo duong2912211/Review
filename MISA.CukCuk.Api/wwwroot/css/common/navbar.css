@@ -1,0 +1,88 @@
+﻿.navbar{
+    float: left;
+    width: 220px;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 1px solid #e5e5e5;
+}
+.navbar .logo-site, .navbar .logo-box {
+    display: flex;
+    width:100%;
+    height:60px;
+  
+}
+    .navbar .logo-box {
+        width: calc(100% - 60px);
+        display: flex;
+        height: 30px;
+        position: absolute;
+        top: 18px;
+        left: 18px;
+    }
+    /*Logo page*/
+    .navbar .logo-box .menu {
+        width: 24px;
+        height: 24px;
+        background-image: url('../../content/img/toggle.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .navbar .logo-box .logo {
+        width: 100%;
+        height: 24px;
+        background-image: url('../../content/img/cukcuk-logo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+.navbar .navbar-content{
+    width:100%;
+}
+    .navbar .navbar-content .navbar-item {
+        display: flex;
+        padding-left: 24px;
+        height: 44px;
+        cursor: pointer;
+        line-height: 44px;
+    }
+    .navbar .navbar-content .navbar-item:hover{
+        background-color:#e5e5e5;
+        color:#000000;   
+    }
+.navbar-item .navbar-item-icon-dashboard {
+    width: 20px;
+    height: 20px;
+    /*margin: auto 0; (Cách 1)*/
+    align-self: center;
+    margin-right: 10px;
+    background-image: url('../../content/icon/dashboard.png');
+    background-size: contain;
+}
+.navbar-item .navbar-item-icon-employee {
+    width: 20px;
+    height: 20px;
+    /*margin: auto 0; (Cách 1)*/
+    align-self: center;
+    margin-right: 10px;
+    background-image: url('../../content/icon/dic-employee.png');
+    background-size: contain;
+}
+.navbar-item .navbar-item-icon-report {
+    width: 20px;
+    height: 20px;
+    /*margin: auto 0; (Cách 1)*/
+    align-self: center;
+    margin-right: 10px;
+    background-image: url('../../content/icon/report.png');
+    background-size: contain;
+}
+.navbar-item .navbar-item-icon-setting {
+    width: 20px;
+    height: 20px;
+    /*margin: auto 0; (Cách 1)*/
+    align-self: center;
+    margin-right: 10px;
+    background-image: url('../../content/icon/setting.png');
+    background-size: contain;
+}

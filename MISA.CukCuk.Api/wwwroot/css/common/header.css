@@ -1,0 +1,47 @@
+﻿.header {
+    float : left;
+    width: calc(100% - 221px);
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+.header .list{
+    position:absolute;
+    display:flex;
+}
+
+    .header .list select{
+        height:40px;
+        margin: 10px 0 10px 16px;
+        border:none;
+    }
+
+    .header .user-infor{
+      width:100%;
+    }
+
+    .header .header-item .select{
+        -webkit-padding-end:10px;
+    }
+    .header .user-infor .user-avatar {
+        width: 24px;
+        height: 24px;
+        background-image: url('../../content/icon/avatar-default.png');
+        background-size: contain;
+        float: right;
+        margin: 18px 0px 18px 16px;
+    }
+
+    .header  .user-infor .user-name {
+        float: right;
+        margin: 24px 16px 24px 16px;
+    }
+    .header .user-infor .user-extension {
+        width: 24px;
+        height: 24px;
+        background-image: url('../../content/icon/option.png');
+        background-size: contain;
+        float: right;
+        margin: 18px 16px 18px 0px;
+    }
+

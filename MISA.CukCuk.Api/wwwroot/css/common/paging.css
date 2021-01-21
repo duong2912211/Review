@@ -1,0 +1,43 @@
+﻿
+     .paging-bar .paging-bar-left{
+        float:left;
+        margin-top:21px;
+        margin-left:16px;
+    }
+.paging-bar .paging-bar-center {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+        .paging-button-number {
+            width: 40px;
+            height: 40px;        
+            text-align:center;
+            margin-left:10px;
+            border-radius: 50px;  
+            outline:none;
+            border:none;
+            cursor:pointer;
+        }
+        .paging-button-arrow {
+            width: 50px;
+            height: 40px;
+            text-align: center;
+            margin-left: 10px;
+            border-radius: 4px;
+            outline: none;
+            border:none;
+            cursor: pointer;
+        }
+ .paging-button-number:hover {
+    background-color: #DADCE0;
+}
+.paging-button-arrow:hover {
+    background-color: #DADCE0;
+}
+.paging-bar .paging-bar-right {
+    float: right;
+    margin-top: 21px;
+    margin-right: 16px;
+}
+

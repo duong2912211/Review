@@ -1,0 +1,11 @@
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csprojAssemblyReference.cache
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfo.cs
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.deps.json
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.Properties.Resources.resources
+C:\Users\npduong\source\repos\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.GenerateResource.cache

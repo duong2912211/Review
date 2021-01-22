@@ -63,6 +63,12 @@ namespace MISA.ApplicationCore.Entities
         /// Id phòng ban
         /// </summary>
         public Guid DepartmentId { get; set; }
+
+        /// <summary>
+        /// Id phòng ban
+        /// </summary>
+        public string DepartmentName { get; set; }
+
         /// <summary>
         /// Số điện thoại
         /// </summary>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\npduong\\source\\repos\\MISA.CukCuk\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {}
+    "C:\\Users\\npduong\\Desktop\\Review\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\npduong\\source\\repos\\MISA.CukCuk\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
+    "C:\\Users\\npduong\\Desktop\\Review\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\npduong\\source\\repos\\MISA.CukCuk\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\npduong\\Desktop\\Review\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
         "projectName": "MISA.ApplicationCore",
-        "projectPath": "C:\\Users\\npduong\\source\\repos\\MISA.CukCuk\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
+        "projectPath": "C:\\Users\\npduong\\Desktop\\Review\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\npduong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\npduong\\source\\repos\\MISA.CukCuk\\MISA.ApplicationCore\\obj\\",
+        "outputPath": "C:\\Users\\npduong\\Desktop\\Review\\MISA.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\npduong\\AppData\\Roaming\\NuGet\\NuGet.Config",

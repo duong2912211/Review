@@ -64,7 +64,7 @@ namespace MISA.ApplicationCore.Entities
         /// </summary>
         public Guid DepartmentId { get; set; }
 
-        /// <summary>
+        ///<summary>
         /// Id phòng ban
         /// </summary>
         public string DepartmentName { get; set; }

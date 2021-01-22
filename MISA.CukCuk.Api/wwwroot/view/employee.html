@@ -154,7 +154,7 @@
                             A. THÔNG TIN CHUNG
                         </div>
                         <div class="m-row">
-                            <div class="m-label">Mã nhân viên(<span class="text-color_red">*</span>)</div>
+                            <div class="m-label">Mã nhân viên(<span class="text-color-red">*</span>)</div>
                             <div class="m-control"><input id="txtEmployeeCode" type="text" fieldName="EmployeeCode" required /></div>
                         </div>
                         <div class="m-row">
@@ -162,7 +162,7 @@
                             <div class="m-control"><input id="dtDateOfBirth" type="date" fieldName="DateOfBirth" /></div>
                         </div>
                         <div class="m-row">
-                            <div class="m-label">Số CMND(<span class="text-color_red">*</span>)</div>
+                            <div class="m-label">Số CMND(<span class="text-color-red">*</span>)</div>
                             <div class="m-control"><input id="txtCustomerCode" type="text" fieldName="IdCard" required /></div>
                         </div>
                         <div class="m-row">
@@ -170,7 +170,7 @@
                             <div class="m-control"><input id="txtIdCardIssue" type="text" fieldName="IdCardIssue" /></div>
                         </div>
                         <div class="m-row">
-                            <div class="m-label">Email(<span class="text-color_red">*</span>)</div>
+                            <div class="m-label">Email(<span class="text-color-red">*</span>)</div>
                             <div class="m-control"><input id="txtEmail" type="text" fieldName="Email" required /></div>
                         </div>
                         <div class="m-row">
@@ -179,10 +179,10 @@
                         <div class="m-row">
                             <div class="m-label">Vị trí</div>
                             <div class="m-control">
-                                <select>
-                                    <option>Giám đốc</option>
+                                <select id="cbxPosition" fieldName="PositionName" api="/api/v1/Employees" fieldId="PositionID">
+                                    <!--<option>Giám đốc</option>
                                     <option>Dev</option>
-                                    <option>Khác</option>
+                                    <option>Khác</option>-->
                                 </select>
                             </div>
                         </div>
@@ -200,13 +200,13 @@
 
                         </div>
                         <div class="m-row">
-                            <div class="m-label">Họ và tên(<span class="text-color_red">*</span>)</div>
-                            <div class="m-control"><input id="txtFullName" type="text" required fieldName="FullName" /></div>
+                            <div class="m-label">Họ và tên(<span class="text-color-red">*</span>)</div>
+                            <div class="m-control"><input id="txtEmployeeName" type="text" required fieldName="EmployeeName" /></div>
                         </div>
                         <div class="m-row">
                             <div class="m-label">Giới tính</div>
                             <div class="m-control">
-                                <select>
+                                <select id="cbxGender" fieldName="PositionName" api="/api/v1/Employees" fieldId="PositionID" >
                                     <option>Nam</option>
                                     <option>Nữ</option>
                                     <option>Khác</option>
@@ -229,10 +229,10 @@
                         <div class="m-row">
                             <div class="m-label">Phòng ban</div>
                             <div class="m-control">
-                                <select>
-                                    <option>Đào tạo</option>
+                                <select id="cbxDepartment" fieldName="DepartmentName" api="/api/v1/Departments" fieldId="DepartmentId">
+                                    <!--<option>Đào tạo</option>
                                     <option>NCCN</option>
-                                    <option>Khác</option>
+                                    <option>Khác</option>-->
                                 </select>
                             </div>
                         </div>

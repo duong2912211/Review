@@ -26,6 +26,7 @@ input.border-red{
 .loading{
     display:none;
 }
+
 .loading-modal{
     position:fixed;
     top:0;

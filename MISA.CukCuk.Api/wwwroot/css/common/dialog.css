@@ -72,7 +72,10 @@ input {
     width: 100%;
     box-sizing: border-box;
 }
-
+.text-color-red
+{
+    color:red;
+}
 .dialog-infor {
     display: flex;
     width: 100%;

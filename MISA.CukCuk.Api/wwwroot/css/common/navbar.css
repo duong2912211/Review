@@ -4,6 +4,7 @@
     height: 100vh;
     background-color: #ffffff;
     border-right: 1px solid #e5e5e5;
+    
 }
 .navbar .logo-site, .navbar .logo-box {
     display: flex;
@@ -36,19 +37,24 @@
         background-repeat: no-repeat;
     }
 
-.navbar .navbar-content{
-    width:100%;
-}
+    .navbar .navbar-content {
+        width: 100%;
+        text-decoration: none !important;
+    }
     .navbar .navbar-content .navbar-item {
         display: flex;
         padding-left: 24px;
         height: 44px;
         cursor: pointer;
         line-height: 44px;
+       
     }
     .navbar .navbar-content .navbar-item:hover{
         background-color:#e5e5e5;
         color:#000000;   
+    }
+    .navbar-item .navbar-item-text{
+        text-decoration:none;
     }
 .navbar-item .navbar-item-icon-dashboard {
     width: 20px;

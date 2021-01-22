@@ -64,8 +64,9 @@ namespace MISA.Infarstructure
         /// CreatedBy :NPDUONG (12/01/2021)
         public TEntity GetEntityById(Guid entityId)
         {
-            //Khởi tạo các CommandText
-            var entities = _dbConnection.Query<TEntity>($"Proc_Get{_tableName}ById", new { EntityId = entityId }, commandType: CommandType.StoredProcedure).FirstOrDefault();
+            var param = new DynamicParameters();
+            param.Add("@EmployeeId", dbType: DbType.String, value: entityId.ToString(), direction: ParameterDirection.Input);
+            var entities = _dbConnection.Query<TEntity>($"Proc_Get{_tableName}ById", param, commandType: CommandType.StoredProcedure).FirstOrDefault();            
             //Trả về dữ liệu
             return entities;
         }

@@ -22,3 +22,15 @@ C:\Users\npduong\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA
 C:\Users\npduong\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CopyComplete
 C:\Users\npduong\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.dll
 C:\Users\npduong\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.deps.json
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.Infarstructure.pdb
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.dll
+C:\Users\LENOVO\Desktop\Review\MISA.Infarstructure\obj\Debug\netcoreapp3.1\MISA.Infarstructure.pdb

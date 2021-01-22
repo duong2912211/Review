@@ -63,6 +63,11 @@ class BaseJS {
                 $.each(inputs, function (index, input) {
                     var propertyName = $(this).attr('fieldname');
                     var value = res[propertyName];
+
+                    if (propertyName == "DateOfBirth") {
+                        value = formatDate(res[propertyName]);//hiển thị dữ liệu lên text datetime
+                    }
+
                     $(this).val(value);
                     //lấy giá trị check box
                     if (propertyName == "Gender") {

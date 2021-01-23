@@ -6199,19 +6199,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
+    "C:\\Users\\npduong\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Review\\MISA.CukCuk.Api\\MISA.CukCuk.Api.csproj",
-      "projectName": "MISA.CukCuk.Api",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Review\\MISA.CukCuk.Api\\MISA.CukCuk.Api.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Review\\MISA.CukCuk.Api\\obj\\",
+      "projectUniqueName": "C:\\Users\\npduong\\Desktop\\Review\\MISA.CukCuk.Api\\MISA.CukCuk.Web.csproj",
+      "projectName": "MISA.CukCuk.Web",
+      "projectPath": "C:\\Users\\npduong\\Desktop\\Review\\MISA.CukCuk.Api\\MISA.CukCuk.Web.csproj",
+      "packagesPath": "C:\\Users\\npduong\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\npduong\\Desktop\\Review\\MISA.CukCuk.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\npduong\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6225,11 +6225,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\Desktop\\Review\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Review\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj"
+            "C:\\Users\\npduong\\Desktop\\Review\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\npduong\\Desktop\\Review\\MISA.ApplicationCore\\MISA.ApplicationCore.csproj"
             },
-            "C:\\Users\\LENOVO\\Desktop\\Review\\MISA.Infarstructure\\MISA.Infarstructure.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Review\\MISA.Infarstructure\\MISA.Infarstructure.csproj"
+            "C:\\Users\\npduong\\Desktop\\Review\\MISA.Infarstructure\\MISA.Infarstructure.csproj": {
+              "projectPath": "C:\\Users\\npduong\\Desktop\\Review\\MISA.Infarstructure\\MISA.Infarstructure.csproj"
             }
           }
         }
@@ -6297,7 +6297,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

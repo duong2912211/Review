@@ -1,5 +1,4 @@
 
-
 class BaseJS {
     constructor() {
         this.host = "http://localhost:58234";
@@ -43,6 +42,7 @@ class BaseJS {
 
             me.loadComboBox();
             me.loadComboBox($('select#cbxPosition'));
+            me.loadComboBox($('select#Gender'))
 
             me.FormMode = 'Edit';
             //Lấy khóa chính của bản ghi:
@@ -55,7 +55,7 @@ class BaseJS {
                 method: "GET",
             }).done(function (res) {
                 //Bindding dữ liệu lên form chi tiết 
-                debugger;
+              
                 console.log(recordId);
                 // lấy tất cả các control nhập liệu
                 var inputs = $('input[fieldName], select[fieldName]');
@@ -64,7 +64,7 @@ class BaseJS {
                     var propertyName = $(this).attr('fieldname');
                     var value = res[propertyName];
 
-                    if (propertyName == "DateOfBirth") {
+                    if (propertyName == "DateOfBirth" || propertyName == "CardDateRange" || propertyName == "JoinDate") {
                         value = formatDate(res[propertyName]);//hiển thị dữ liệu lên text datetime
                     }
 
@@ -157,7 +157,7 @@ class BaseJS {
                         switch (formatType) {
                             case "ddmmyyyy":
                                 td.addClass("text-align-center");
-                                value = formatDate(value);
+                                value = formatDateDisplay(value);
                                 break;
                             case "Money":
                                 td.addClass("text-align-right");

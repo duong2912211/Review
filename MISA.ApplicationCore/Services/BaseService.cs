@@ -127,7 +127,7 @@ namespace MISA.ApplicationCore.Services
                             messError.Add(string.Format(Properties.Resources.Msg_isNotValid,displayName));
                             _serviceResult.MISACode = Enums.MISACode.NotValid;
                             _serviceResult.Messenger = Properties.Resources.Msg_isNotValid;
-                    }    
+                        }    
                  }
                 else if (property.IsDefined(typeof(MaxLength), false))
                 {
